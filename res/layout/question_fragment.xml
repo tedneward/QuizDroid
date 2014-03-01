@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/txtQuestionText" android:layout_gravity="center_horizontal" android:minLines="5"
+            android:gravity="bottom|left"/>
+
+    <RadioGroup android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Answer1"
+                android:id="@+id/radAnswer1" android:checked="false"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Answer2"
+                android:id="@+id/radAnswer2" android:checked="false"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Answer3"
+                android:id="@+id/radAnswer3" android:checked="false"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Answer4"
+                android:id="@+id/radAnswer4" android:checked="false"/>
+    </RadioGroup>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/btnQuestionSubmit" android:layout_gravity="center_horizontal"/>
+</LinearLayout>

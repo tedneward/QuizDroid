@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Marvel Super Heroes",
+        "desc": "Avengers Assemble! It's clobberin' time!",
+        "questions": [
+            {
+                "text": "Who is Iron Man?",
+                "answers": [ "Tony Stark", "Obidiah Stane", "Pepper Potts", "Black Sabbath" ],
+                "answer": 1
+            },
+            {
+                "text": "In which war did Steve Rogers get injected with the Super-Soldier Serum?",
+                "answers": [ "Vietnam War", "CivilWar", "Korean War", "World War Two" ],
+                "answer": 4
+            },
+            {
+                "text": "What gave Spider-Man his powers?",
+                "answers": [ "A bite from a radioactive spider", "Eating a radioactive spider",
+                    "He inherited them from his Aunt May", "He was irradiated while on a space mission" ],
+                "answer": 1
+            },
+            {
+                "text": "Who founded the X-Men?",
+                "answers": [ "Professor X", "Magneto", "Banshee", "The X-Institute" ],
+                "answer": 1
+            }
+        ]
+    },
+    {
+        "title": "Mathematics",
+        "desc": "Can you do simple maths?",
+        "questions": [
+            {
+                "text": "What is 2+2?",
+                "answers": [ "22", "0", "4", "Indeterminate" ],
+                "answer": 3
+            }
+        ]
+    },
+    {
+        "title": "Politics",
+        "desc": "Right, left, Congress, progress, Republicans, Democrats, oh my!",
+        "questions": [
+            {
+                "text": "What is the document declaring the form of government for the United States?",
+                "answers": [ "Declaration of Independence", "Bill of Rights", "Constitution", "Magna Carta" ],
+                "answer": 3
+            }
+        ]
+    }
+]

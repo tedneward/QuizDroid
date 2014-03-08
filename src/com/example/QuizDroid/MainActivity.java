@@ -33,4 +33,12 @@ public class MainActivity extends Activity
             }
         });
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        if (DownloadService.isServiceAlarmOn(this))
+            DownloadService.setServiceAlarm(this, false);
+    }
 }
